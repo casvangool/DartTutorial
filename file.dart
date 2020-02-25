@@ -1,12 +1,10 @@
-void main(){
-  int a = 3;
-  int b = 2;
-  int c = a *2;
-  print(c);
-  int d = a - b;
-  int e = a + c;
-  print(d);
-  print(e);
-  a += 2;
-  print(a);
+void main() {
+  String firstname = "Cas";
+  String surname = "van Gool";
+  print(firstname);
+  print(surname);
+  String fullname = firstname + ' ' + surname;
+  print(fullname);
+  String fullname2 = "Fullname: $firstname $surname";
+  print(fullname2);
 }
